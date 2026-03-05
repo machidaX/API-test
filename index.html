@@ -140,7 +140,7 @@
             // 2. GAS経由でスプレッドシートに保存
             // 成功・失敗に関わらず画面には表示させるため await しつつエラーハンドリング
             try {
-                await fetch(gasUrl, {
+               // await fetch(gasUrl, {
                     method: "POST",
                     mode: "no-cors",
                     headers: { "Content-Type": "application/json" },
@@ -202,4 +202,5 @@
 
 
 </body>
+
 </html>
